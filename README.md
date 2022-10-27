@@ -33,7 +33,7 @@ Router automatically connects to the campus network of Nanjing University of Pos
 
 ## 3.一切就绪，开整！
 
-如果你准备好了上述设备，请转到 [data/教程](./data/README.md) 查看详细操作
+如果你准备好了上述设备，请转到 [data/教程](./data) 查看详细操作
 
 ## 求star✨
 
