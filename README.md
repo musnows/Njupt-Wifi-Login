@@ -1,5 +1,6 @@
 # Njupt-Wifi-Login
-路由器自动连接南京邮电大学校园网教程
+
+路由器自动连接南京邮电大学校园网教程，使用shell脚本
 
 Router automatically connects to the campus network of Nanjing University of Posts and Telecommunications
 
