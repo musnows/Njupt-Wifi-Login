@@ -105,7 +105,7 @@ ssh root@192.168.31.1:22
 
 ![image-20221027150924288](../img/image-20221027150924288.png)
 
-文件对应本仓库中的 `data/breed-mt7621-xiaomi-r3g.bin`，因为不同版本的breed界面不一样，可以下载仓库里面的这个进行操作
+文件对应本仓库中的 [/data/breed-mt7621-xiaomi-r3g.bin](./breed-mt7621-xiaomi-r3g.bin)，因为不同版本的breed界面不一样，可以下载仓库里面的这个进行操作
 
 下载完成之后，将文件拷贝到C盘。`WIN+R`输入`cmd`打开命令提示符，使用`scp`命令将文件发送到路由器中
 
@@ -158,7 +158,7 @@ mtd -r write /tmp/breed-mt7621-xiaomi-r3g.bin Bootloader
 
 ## 6.刷入第三方固件
 
-点击`固件更新-常规固件`，在**固件**一栏选择本仓库`/data/hiboy`下的`MI-R3G_3.4.3.9-099.trx`固件
+点击`固件更新-常规固件`，在**固件**一栏选择本仓库[/data/hiboy](./hiboy) 下的`MI-R3G_3.4.3.9-099.trx`固件
 
 如下图，选择自动重启后上传
 
