@@ -19,7 +19,7 @@ Router automatically connects to the campus network of Nanjing University of Pos
 需要的工具如下：
 
 * 带RJ45网线接口的电脑
-* 小米路由器3G千兆路由器（咸鱼55左右入手，性价比极高）
+* 小米3G千兆路由器（咸鱼55左右入手，性价比极高）
 * RJ45网线一根
 * U盘（容量大于2G）
 * 牙签（用来按路由器的`reset`按钮）
