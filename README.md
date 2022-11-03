@@ -49,6 +49,14 @@ Router automatically connects to the campus network of Nanjing University of Pos
 如果出现复制内容到用户目录后，重启路由器文件丢失的问题
 >参考这篇博客解决 https://panfake.com/2019/01/padavan-settings-files-lost-after-reboot/
 
+简单而言，便是找到`系统管理-恢复/导出/上传设置`里面，点击`保存/etc/storage内容到闪存`后的**上传**按钮
+
+![Snipaste_2022-11-03_19-24-00](img/Snipaste_2022-11-03_19-24-00.png)
+
+同时也需要修改crontab设置中的脚本路径，应该就OK了
+
+
+
 ## issue/pull request
 
 如在配置过程中遇到了什么问题，可开放issue提出
