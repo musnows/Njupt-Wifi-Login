@@ -45,6 +45,9 @@ Router automatically connects to the campus network of Nanjing University of Pos
 
 如果你准备好了上述设备，请转到 [data/教程](./data) 查看详细操作
 
+## 4.关于配置文件被删除的问题
+如果出现复制内容到用户目录后，重启路由器文件丢失的问题
+>参考这篇博客解决 https://panfake.com/2019/01/padavan-settings-files-lost-after-reboot/
 
 ## issue/pull request
 
