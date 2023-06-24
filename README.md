@@ -27,7 +27,7 @@ Router automatically connects to the campus network of Nanjing University of Pos
 
 路由器选择：
 
-* 推荐：小米3G千兆路由器（咸鱼55左右入手，性价比极高）
+* 推荐：小米3G千兆路由器，带USB版本（咸鱼55左右入手，性价比极高）
 * 任何可以利用breed刷机，装openwrt或hiboy固件的路由器（参考网上的教程）
 * 树莓派等带wifi功能的开发板（不推荐，树莓派的wifi稳定性很差；更别提树莓派现在的价格够你买8个小米3G）
 * 旧电脑装linux挂脚本+开热点（有亿点点贵）

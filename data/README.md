@@ -158,7 +158,11 @@ mtd -r write /tmp/breed-mt7621-xiaomi-r3g.bin Bootloader
 
 ## 6.刷入第三方固件
 
-点击`固件更新-常规固件`，在**固件**一栏选择本仓库[/data/hiboy](./hiboy) 下的`MI-R3G_3.4.3.9-099.trx`固件
+刷入固件前，请先备份保存如下两个文件。EEPROM保存着出厂信息，且每台设备均为唯一， 包括路由器SN, MAC地址和无线相关参数。EEPROM数据丢失可能导致无线网无法使用。
+
+![](../img/breed-backup.png)
+
+点击 `固件更新-常规固件` ，在**固件**一栏选择本仓库 [/data/hiboy](./hiboy) 下的 `MI-R3G_3.4.3.9-099.trx` 固件
 
 如下图，选择自动重启后上传
 
@@ -415,3 +419,16 @@ logger -t "【运行路由器启动后】" "登录脚本完成"
 
 ![image-20221027162747308](../img/image-20221027162747308.png)
 
+## 刷回breed
+
+如果你想安装其他固件，这里提供pandavan固件刷breed的命令
+
+```
+mtd_write -r write breed固件文件名 Bootloader
+```
+
+效果如下，刷入breed后即可依照对应固件的教程，刷入其他执行小米3G路由器的固件
+
+![pandavan2breed](../img/pandavan2breed.png)
+
+如果你是初学者，个人不建议折腾，极其容易让路由器变砖（指坏掉）。
