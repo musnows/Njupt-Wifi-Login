@@ -147,7 +147,7 @@ breed-mt7621-xiaomi-r3g.bin               100%  134KB 875.7KB/s   00:00
 mtd -r write /tmp/breed-mt7621-xiaomi-r3g.bin Bootloader
 ~~~
 
-等待完成后，继续下面的操作
+执行命令后，路由器会重启。建议等待较长时间让它彻底完成后，继续下面的操作
 
 * 路由器断电
 * 用网线连接路由器的`lan口`和电脑（这就是需要带网口电脑的原因）
