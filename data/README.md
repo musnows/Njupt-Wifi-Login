@@ -2,7 +2,9 @@
 
 > 注：本教程不一定适用于其他小米路由器，但大致操作类似
 
-仓库内提供的文件仅供备用，建议跟随教程到指定网址下载最新版本文件进行操作
+仓库内提供的文件仅供备用，建议跟随教程到指定网址下载最新版本文件进行操作;
+
+**2023.09.04重要更新**：[njuptLogin.sh](./njuptLogin.sh) 文件已经失效，请使用 [njuptLogin.new.sh](./njuptLogin.new.sh)，使用方法详见仓库 [github.com/s235784/NJUPT_AutoLogin](https://github.com/s235784/NJUPT_AutoLogin)
 
 -----
 
