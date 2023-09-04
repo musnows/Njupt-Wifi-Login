@@ -55,7 +55,16 @@ Router automatically connects to the campus network of Nanjing University of Pos
 
 同时也需要修改crontab设置中的脚本路径，应该就OK了
 
+## 5.关于DNS解析错误导致无法打开校园网登录界面的问题
 
+如果你出现了下图所示的DNS解析错误，导致校园网的登陆页面无法打开。则需要进入路由器固件，关闭DNS的`重绑定保护`（根据写入的不同openwrt固件，设置的位置可能不同）
+
+![dns-error](img/dns-error-230904.jpg)
+
+
+![重绑定保护](img/image-20230904171044.png)
+
+关闭后点击最下面的应用，即可解决该错误！
 
 ## issue/pull request
 
