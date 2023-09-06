@@ -222,7 +222,7 @@ checkTime() {
   if [ "$week" -ge 1 ] && [ "$week" -le 4 ]
   then
   	# 8：10到23点之间
-  	if [ "$time" -ge 0810 ] && [ "$time" -le 2300 ]
+  	if [ "$time" -ge 0700 ] && [ "$time" -le 2330 ]
   	then
   			printf "允许时间内，开始准备登录\n"
   			start
@@ -233,7 +233,7 @@ checkTime() {
   elif [ "$week" -eq 5 ]
   then
   	# 8：10之后
-  	if [ "$time" -ge 0810 ]
+  	if [ "$time" -ge 0700 ]
   	then
   			printf "允许时间内，开始准备登录\n"
   			start
@@ -249,7 +249,7 @@ checkTime() {
   elif [ "$week" -eq 0 ]
   then
   	# 23点之前
-  	if [ "$time" -le 2300 ]
+  	if [ "$time" -le 2330 ]
   	then
   			printf "允许时间内，开始准备登录\n"
   			start
